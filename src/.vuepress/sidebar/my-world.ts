@@ -2,16 +2,16 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const myWorld = arraySidebar([
   {
-    text: "巴拉巴拉",
+    text: "个人项目",
     icon: "interview",
-    prefix: "balabala/",
+    prefix: "personal-project/",
     collapsible: false,
     children: "structure",
   },
   {
-    text: "个人项目",
+    text: "巴拉巴拉",
     icon: "interview",
-    prefix: "personal-project/",
+    prefix: "balabala/",
     collapsible: false,
     children: "structure",
   },

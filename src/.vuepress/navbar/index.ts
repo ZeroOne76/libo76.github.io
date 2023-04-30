@@ -45,15 +45,15 @@ export const navBar = navbar([
 },
 { text: "我的世界", icon: "wangluo1", 
     children:[
+      {
+        text: "个人项目",
+        icon: "redis",
+        link: "/my-world/personal-project",
+      },
         {
             text: "碎碎念",
             icon: "odbc-full",
             link: "/my-world/balabala",
-          },
-          {
-            text: "个人项目",
-            icon: "redis",
-            link: "/my-world/personal-project",
           }
     ]
 }
